@@ -37,8 +37,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*____________________*/
 @import url('http://fonts.cdnfonts.com/css/montserrat');
 
-
-
 .wrapper {
 	display: grid;
 	grid-template: minmax(auto, 1030px) 1fr minmax(auto, 548px) / 1fr;
@@ -46,10 +44,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   min-height: 100%;
 }
 
-
 .header {
   grid-area: header;
-  background: url(./Rectangle\ 1.png) center / 1920px 1030px no-repeat;
+  background: url('./Rectangle\ 1.png') center / 1920px 1030px no-repeat;
 	display: grid;
 	grid-template: minmax(auto,100px) 1fr 1fr / minmax(auto,1214px);
 	justify-content: center;
@@ -120,8 +117,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	grid-template: 1fr / 1fr 1fr minmax(auto, 353px);
 	background: #F1F1F1;
 }
-.about {
-}
+
 .about__items {
 	margin-left: 107px;
 	display: flex;
@@ -168,7 +164,6 @@ padding-bottom: 60px;
 	background: #313035;
 }
 
-
 .about__logo:hover {
 	border: 2px solid #8D8C92;
 	background: #E5E5E5;
@@ -197,6 +192,7 @@ padding-bottom: 60px;
 	flex-direction: column;
 	position: relative;
 }
+
 .portfolio__title {
 	text-align: center;
 	padding: 90px 0 70px 0;
@@ -206,11 +202,13 @@ padding-bottom: 60px;
 	font-size: 48px;
 	line-height: 59px;
 }
+
 .portfolio__img {
 	position: relative;
 	top: 0;
 	left: 0;
 }
+
 .portfolio__button {
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
@@ -316,7 +314,7 @@ padding-bottom: 60px;
 }
 
 .content__benefits {
-	background: url(/css/lamp.png);
+	background: url('./lamp.png');
 	display: flex;
 	flex-direction: column;
 	min-height: 900px;
@@ -373,7 +371,7 @@ padding-bottom: 60px;
 }
 
 .content__requestoffers {
-	background: url(/css/Rectangle5.png) left no-repeat #000201;
+	background: url('./Rectangle5.png') left no-repeat #000201;
 	display: grid;
 	grid-template: minmax(auto,940px) / 1fr minmax(auto, 1214px) 1fr;
 	color: white;
@@ -557,7 +555,7 @@ padding-bottom: 60px;
 
 .footer__link_num::before{
 	content: "";
-	background: url(./number.png) center / cover no-repeat;
+	background: url('./number.png') center / cover no-repeat;
 	padding-left: 20px;
 	padding-top: 5px;
 	margin-right: 16px;
@@ -565,7 +563,7 @@ padding-bottom: 60px;
 
 .footer__link_mail::before{
 	content:"";
-	background: url(./fi_mail.png) center / cover no-repeat;
+	background: url('./fi_mail.png') center / cover no-repeat;
 	padding-left: 20px;
 	margin-right: 16px;
 	padding-top: 5px;
@@ -573,7 +571,7 @@ padding-bottom: 60px;
 
 .footer__link_geo::before{
 	content:"";
-	background: url(./fi_map-pin.png) center / cover no-repeat;
+	background: url('./fi_map-pin.png') center / cover no-repeat;
 	padding-left: 20px;
 	margin-right: 16px;
 	padding-top: 5px;
